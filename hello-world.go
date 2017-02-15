@@ -1,4 +1,4 @@
-package main
+package main // this declaration shows that this is a standalone executable program
 
 import (
   "fmt"
