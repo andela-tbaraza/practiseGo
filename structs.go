@@ -17,9 +17,9 @@ func main() {
         Perimeter float64
     }
 
-    var example2 circle
-    example2 := new(circle)
-    fmt.Println(example2)
+    // var example2 circle
+    // example2 := new(circle)
+    // fmt.Println(example2)
 
 
     example := circle{
@@ -30,5 +30,7 @@ func main() {
     }
 
     fmt.Println(example)
+    fmt.Println(example.Radius)
+
 
 }
