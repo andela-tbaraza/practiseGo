@@ -1,4 +1,4 @@
-package main
+package mapping
 
 import (
   "fmt"
@@ -14,7 +14,7 @@ import (
 // key type must be a comparable type - bools, strings, numerical
 // all keys should be unique
 
-func main () {
+func Mapping() {
   myMap := make(map[int]string)
   fmt.Println(myMap)
   myMap[1] = "Kenya"

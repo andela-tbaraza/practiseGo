@@ -1,4 +1,4 @@
-package main
+package only
 
 import (
   "fmt"
@@ -51,7 +51,7 @@ func display(results []map[string]interface{}){
 
 }
 
-func main () {
+func Only () {
   testString := "Autos/Trucks/Wheel Drive"
 
   searchLabels := strings.Split(testString, "/")

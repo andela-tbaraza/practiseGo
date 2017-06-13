@@ -1,11 +1,11 @@
-package main
+package environment
 
 import (
   "os"
   "fmt"
 )
 
-func main() {
+func Environment() {
   for _, env := range os.Environ() {
   fmt.Println(env)
 }

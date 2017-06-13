@@ -1,10 +1,10 @@
-package main
+package concurrency
 
 import (
     "fmt"
 )
 
-func main () {
+func Concurrency() {
     // concurrency vs paralleslism
     // Mike van sickle - concurrent programming in Go
     // concurrency is abput independent executing process

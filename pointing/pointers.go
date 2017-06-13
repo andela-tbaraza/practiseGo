@@ -1,10 +1,12 @@
-package main
+package pointing
 
 import (
   "fmt"
 )
-
-func main () {
+/*
+Go vvariables are passed by value
+*/
+func Pointing() {
   module := 23
   ptr := &module
   lang := "Javascript"

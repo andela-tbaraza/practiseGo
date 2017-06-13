@@ -1,4 +1,4 @@
-package main // this declaration shows that this is a standalone executable program
+package hello
 
 import (
   "fmt"
@@ -10,7 +10,7 @@ var (
   number int32 // package level
   fly = 0.32
 )
-func main() {
+func Hello() {
   house := 20000 // shorthand declare and initialize only works within a function
   name = "Today"
   fmt.Println("Hello from", runtime.GOOS)

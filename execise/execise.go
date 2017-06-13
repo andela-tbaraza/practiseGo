@@ -1,4 +1,4 @@
-package main
+package execise
 
 import (
     "fmt"
@@ -21,7 +21,7 @@ func parensMatch(s string) (parensDoMatch bool) {
     return
 }
 
-func main() {
+func Execise() {
     str := "()(())"
     // res := parensMatch(str)
     // fmt.Fprintln(res)

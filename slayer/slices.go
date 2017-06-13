@@ -1,10 +1,10 @@
-package main
+package slayer
 
 import (
   "fmt"
 )
 
-func main () {
+func Slayer() {
   // numbered lists conataining items of same type
 
   // Arrays vs slices
